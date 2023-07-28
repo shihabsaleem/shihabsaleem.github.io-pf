@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="#" element={<Home />} />
-          <Route path="#about" element={<Home />} />
-          <Route path="#portfolio" element={<Home />} />
-          <Route path="#contact" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
