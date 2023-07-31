@@ -3,7 +3,7 @@ import "../Styles/home.css";
 
 const ScrollDown = () => {
   return (
-    <div className="homeScroll">
+    <div className="home_scroll">
       <a href="#about" className="home_scroll-button button_flex">
         <i class="uil uil-mouse-alt scroll-mouse"></i>
         <span className="home_scroll-name">Scroll Down</span>{" "}
