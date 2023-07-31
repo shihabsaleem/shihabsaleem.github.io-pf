@@ -11,6 +11,9 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --combo-yellow: #ffdc5d;
+  --combo-yellow-secondary: #ffdc5d;
+
   /* typography variable */
   --body-font: "Poppins", sans-serif;
   --big-font-size: 3.5rem;
@@ -126,7 +129,7 @@ img {
 
 .button {
   display: inline-block;
-  background-color: var(--text-color);
+  background-color: var(--title-color-dark);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -134,7 +137,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--title-color);
 }
 
 .button_icon {
@@ -161,4 +164,24 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--container-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--combo-yellow);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--combo-yellow-secondary);
 }
