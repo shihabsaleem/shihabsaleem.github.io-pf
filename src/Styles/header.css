@@ -18,6 +18,9 @@
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
+.logo_span {
+  color: var(--combo-yellow);
+}
 .nav_list {
   display: flex;
   column-gap: 2rem;
@@ -63,7 +66,7 @@
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
-  .show_menu{
+  .show_menu {
     bottom: 0;
   }
   .nav_list {
@@ -85,10 +88,9 @@
   .nav_close:hover {
     color: var(--title-color-dark);
   }
-  .nav_toggle{
+  .nav_toggle {
     font-size: 1.1rem;
     cursor: pointer;
-    
   }
   .nav_icon,
   .nav_close,
