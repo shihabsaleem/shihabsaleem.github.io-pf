@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/about.css";
 import Info from "./Info";
-import AboutImg from "../Assets/pic169.jpg";
+import AboutImg from "../Assets/pic11.jpg";
 import Resume from "../Assets/Shihab Rahman S.pdf";
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
           </p>
           <a download="" href={Resume} className="button button_flex">
             Download CV
-            <i class="uil uil-file-bookmark-alt"></i>
+            <i class="uil uil-file-bookmark-alt button_icon"></i>
           </a>
         </div>
       </div>
