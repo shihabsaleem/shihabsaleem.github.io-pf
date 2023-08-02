@@ -99,4 +99,44 @@
 .contact_pos {
   position: relative;
   top: 175px;
+  z-index: 100;
+}
+
+/*breakpoint*/
+
+@media screen and (max-width: 992px) {
+  .contact_container {
+    column-gap: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact_container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+  .contact_info {
+    justify-content: center;
+  }
+  .contact_form {
+    margin: 0 auto;
+  }
+
+  .contact_pos {
+    margin-bottom: var(--mb-2);
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact_info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact_form {
+    width: 200px;
+    margin: auto 20px;
+  }
 }
