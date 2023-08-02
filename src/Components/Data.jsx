@@ -12,7 +12,9 @@ const Data = () => {
         to my work.
       </p>
       <a
-        href="https://wa.me/+917907689743?text=hello" target="_blank" rel="noreferrer"
+        href="#contact"
+        target="_blank"
+        rel="noreferrer"
         className="button button_flex"
       >
         Say Hello
