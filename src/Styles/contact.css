@@ -89,18 +89,18 @@
   z-index: 10;
 }
 .contact_form-area {
-  height: 11rem;
+  height: 15.5rem;
 }
 .contact_form-area textarea {
   resize: none;
 }
 
-/*-----*/
+/* -----
 .contact_pos {
   position: relative;
   top: 175px;
   z-index: 100;
-}
+} */
 
 /*breakpoint*/
 

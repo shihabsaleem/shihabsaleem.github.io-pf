@@ -1,0 +1,25 @@
+.portfolio_container {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 6rem;
+  padding-bottom: 3rem;
+}
+.portfolio_title {
+  text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1-5);
+}
+.portfolio_item {
+  display: grid;
+  row-gap: 2rem;
+  grid-template-columns: 300px;
+}
+.portfolio_data {
+  text-align: center;
+}
+.portfolio_desc {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}

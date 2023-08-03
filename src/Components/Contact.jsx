@@ -83,19 +83,19 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact_form_div">
+            <div className="contact_form_div contact_form-area">
               <label className="contact_form-tag">Message</label>
               <textarea
                 name="message"
                 cols="30"
-                rows="10"
-                className="contact_form-input contact_form-area"
+                rows="9"
+                className="contact_form-input "
                 placeholder="Write your message"
               ></textarea>
             </div>
 
             <div className="">
-              <button className="button button_flex contact_pos contact_form-button">
+              <button className="button button_flex contact_form-button">
                 Send Message
                 <i className="uil uil-location-arrow home_send"></i>
               </button>
