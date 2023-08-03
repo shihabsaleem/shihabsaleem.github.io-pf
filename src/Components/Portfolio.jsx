@@ -16,7 +16,7 @@ const Portfolio = () => {
       image: project1Image,
     },
     {
-      title: "Project 2",
+      title: "Project 3",
       description: "Description for Project 3",
       image: project1Image,
     },
@@ -24,7 +24,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section className="portfolio section">
+    <section className="portfolio section" id="portfolio">
       <h2 className="section_title">Portfolio</h2>
       <span className="section_subtitle">Projects</span>
 
