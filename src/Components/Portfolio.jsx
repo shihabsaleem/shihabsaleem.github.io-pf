@@ -1,19 +1,20 @@
 import React from "react";
 import "../Styles/portfolio.css";
-
-import project1Image from "../Assets/pic11.jpg"; // Corrected import
+import union from "../Assets/union.jpg";
+import arwardrobe from "../Assets/union.jpg"; // Corrected import
+import project1Image from "../Assets/union.jpg"; // Corrected import
 
 const Portfolio = () => {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description for Project 1",
-      image: project1Image,
+      title: "Union",
+      description: "College Electoral Web App",
+      image: union,
     },
     {
-      title: "Project 2",
-      description: "Description for Project 2",
-      image: project1Image,
+      title: "AR Wardrobe",
+      description: "E Commerce with AR",
+      image: arwardrobe,
     },
     {
       title: "Project 3",
