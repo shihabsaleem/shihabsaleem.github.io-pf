@@ -121,10 +121,8 @@
     margin: 0 auto;
   }
 
-  .contact_pos {
-    margin-bottom: var(--mb-2);
-    position: relative;
-    top: 100px;
+  .contact_form-input {
+    width: 85%;
   }
 }
 
