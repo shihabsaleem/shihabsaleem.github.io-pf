@@ -1,8 +1,7 @@
 import React from "react";
 import "../Styles/portfolio.css";
 import union from "../Assets/union.jpg";
-import arwardrobe from "../Assets/union.jpg"; // Corrected import
-import project1Image from "../Assets/union.jpg"; // Corrected import
+import arwardrobe from "../Assets/arw.jpg";
 
 const Portfolio = () => {
   const projects = [
@@ -16,11 +15,7 @@ const Portfolio = () => {
       description: "E Commerce with AR",
       image: arwardrobe,
     },
-    {
-      title: "Project 3",
-      description: "Description for Project 3",
-      image: project1Image,
-    },
+
     // Add more projects here
   ];
 
