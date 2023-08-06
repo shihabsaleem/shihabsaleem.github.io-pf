@@ -1,4 +1,4 @@
-# Shihab Saleem Portfolio
+# Portfolio
 
 Welcome to my personal portfolio website built using ReactJS. This repository contains the code and assets for my portfolio, where I showcase my projects, skills, and achievements.
 
