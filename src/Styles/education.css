@@ -45,11 +45,11 @@
 }
 .qualification_subtitle {
   display: inline-block;
-  font-size: var(---small-font-size);
+  font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
 }
 .qualification_cal {
-  font-size: var(---small-font-size);
+  font-size: var(--small-font-size);
 }
 .qualification_rounder {
   display: inline-block;
@@ -76,15 +76,15 @@
     font-size: var(--small-font-size);
   }
   .qualification_subtitle {
-    font-size: var(---tiny-font-size);
+    font-size: var(--tiny-font-size);
   }
   .qualification_cal {
-    font-size: var(---tiny-font-size);
+    font-size: var(--tiny-font-size);
   }
-  .qualification_rounder {
+  /* .qualification_rounder {
     width: 5px;
     height: 5px;
-  }
+  } */
 }
 
 @media screen and (max-width: 350px) {

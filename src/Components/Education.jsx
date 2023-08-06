@@ -54,7 +54,7 @@ const Education = () => {
                   GJ Infotech P Ltd.
                 </span>
                 <div className="qualification_cal">
-                  <i class="uil uil-calendar-alt"></i>May 2018 - Jun 2018
+                  <i class="uil uil-calendar-alt"></i>May 2018 - Jun 2019
                 </div>
               </div>
             </div>
