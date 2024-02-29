@@ -10,40 +10,40 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">Python</h3>
-              <span className="skills_level">Basic</span>
+              <span className="skills_level">Experienced</span>
             </div>
           </div>
 
           <div className="skills_data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">C</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Flask</h3>
+              <span className="skills_level">Intermediate</span>
             </div>
           </div>
 
           <div className="skills_data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">MySQL</h3>
+              <h3 className="skills_name">SQL</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
         </div>
 
         <div className="skills_group">
-          <div className="skills_data">
+        <div className="skills_data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">Firebase</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Django</h3>
+              <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">Node Js</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">REST API</h3>
+              <span className="skills_level">Intermediate</span>
             </div>
           </div>
 

@@ -8,8 +8,8 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Developer</h3>
       <p className="home_desc">
-        I'm Creative Designer based in Kerala, I'm Very passionate and dedicated
-        to my work.
+        Crafting elegant, user-centric digital solutions through web development
+        and design.
       </p>
       <a
         href="#contact"

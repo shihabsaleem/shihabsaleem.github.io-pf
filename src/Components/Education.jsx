@@ -23,6 +23,24 @@ const Education = () => {
         <div className="qualification_sections">
           <div className="qualification_content  qualification_content-active">
             <div className="qualification_data">
+              <div></div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification_title">Python Fullstack Intern</h3>
+                <span className="qualification_subtitle">
+                  Inmakes Infotech.
+                </span>
+                <div className="qualification_cal">
+                  <i class="uil uil-calendar-alt"></i>Sep 2023 - Dec 2024
+                </div>
+              </div>
+            </div>
+            <div className="qualification_data">
               <div className="align-right">
                 <h3 className="qualification_title">
                   B.Tech in Computer Science & Engg.
